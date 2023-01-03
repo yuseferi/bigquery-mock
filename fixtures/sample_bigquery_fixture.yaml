@@ -1,0 +1,25 @@
+projects:
+  - id: test
+    datasets:
+      - id: dataset_1
+        tables:
+          - id: table_1
+            columns:
+              - name: field_a
+                type: STRING
+              - name: field_b
+                type: STRING
+              - name: field_c
+                type: INT
+              - name: field_d
+                type: BOOL
+            data:
+              - field_a: "record_1_a"
+                field_b: "record_1_b"
+                field_c: 333
+                field_d: false
+              - field_a: "record_2_a"
+                field_b: "record_2_b"
+                field_c: 222
+                field_d: true
+
